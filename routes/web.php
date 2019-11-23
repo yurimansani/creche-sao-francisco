@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin');
 });
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/admin/eventos','Admin\\EventosController@index');
