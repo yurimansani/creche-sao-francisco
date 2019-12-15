@@ -20,3 +20,7 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin/eventos','Admin\\EventosController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
