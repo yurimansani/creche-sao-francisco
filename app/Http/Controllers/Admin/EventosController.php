@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class EventosController extends Controller
 {
@@ -14,7 +15,7 @@ class EventosController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('eventos.index',['eventos' => DB::table('events')->paginate(15)]);
     }
 
     /**
