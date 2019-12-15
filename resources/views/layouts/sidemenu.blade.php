@@ -1,6 +1,6 @@
 <li class="nav-header">Cadastros</li>
 <li class="nav-item">
-    <a href="#" class="nav-link">
+    <a href="{{route('eventos')}}" class="nav-link">
         <i class="fas fa-place-of-worship"></i>
         <p>
             Eventos
