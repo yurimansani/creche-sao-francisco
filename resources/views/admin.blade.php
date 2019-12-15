@@ -104,13 +104,13 @@
         </section>
     </div>
     <!-- /.content-wrapper -->
-    <!--  <footer class="main-footer">-->
-    <!--    <strong>Copyright &copy; 2019 <a href="http://mycondominium.herokuapp.com">Arman</a>.</strong>-->
+     <footer class="main-footer">
+     <strong>Copyright &copy; {{ date('Y') }} <a href="https://github.com/yurimansani/creche-sao-francisco">pode colocar algo aq</a></strong>
     <!--    All rights reserved.-->
-    <!--    <div class="float-right d-none d-sm-inline-block">-->
-    <!--      <b>Version</b> 3.0.0-beta.1-->
-    <!--    </div>-->
-    <!--  </footer>-->
+     <div class="float-right d-none d-sm-inline-block">
+        <b>All rights direitos arruma ai gabriel {{ date('Y') }}</b>
+     </div>
+     </footer>
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
