@@ -19,7 +19,11 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
-Route::get('/admin/eventos','Admin\\EventosController@index');
+Route::get('/admin/eventos','Admin\\EventosController@index')->name('eventos');
+Route::get('/admin/eventos/editar','Admin\\EventosController@edit')->name('eventos.editar');
+Route::get('/admin/eventos/cadastrar','Admin\\EventosController@index')->name('eventos.cadastrar');
+//Route::get('/admin/eventos/editar','Admin\\EventosController@index')->name('eventos.editar
+//');
 
 Auth::routes();
 
